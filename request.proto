@@ -59,7 +59,8 @@ message Request {
         StorageKey storage_key = 26;
         bool software_version = 27;
         bool peers_info = 28;
-        Call estimate_quota = 29;
+        Call estimate_quota = 29;  
+        string cross = 30;
     }
 }
 
